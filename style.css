@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     color: #fff;
+    position: relative;
 }
 
 header {
@@ -74,4 +75,17 @@ footer {
     .container {
         width: 90%;
     }
+}
+
+/* Style for language selection flags */
+#language-selector {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.flag {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
 }
